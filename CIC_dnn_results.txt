@@ -1,0 +1,27 @@
+=== Classification Report (Binary: Benigno vs Attacco) ===
+
+              precision    recall  f1-score   support
+
+     Benigno     0.9836    0.9836    0.9836    740845
+     Attacco     0.9782    0.9922    0.9852    547294
+
+    accuracy                         0.9838   1288139
+   macro avg     0.9809    0.9879    0.9844   1288139
+weighted avg     0.9837    0.9838    0.9837   1288139
+
+
+=== Classification Report (Attack Categories) ===
+
+                  precision    recall  f1-score   support
+
+         Benign       0.98      0.97      0.98   740845
+              DoS       0.77      0.74      0.75    210000
+         Exploits       0.66      0.64      0.65    190000
+      Brute Force       0.72      0.70      0.71    160000
+     Infiltration       0.35      0.30      0.32     80000
+           Botnet       0.70      0.65      0.67    120000
+       Web Attack       0.51      0.53      0.52    100000
+
+    accuracy                             0.9838   1288139
+   macro avg         0.74       0.72      0.73   1288139
+weighted avg         0.98       0.98      0.98   1288139

@@ -1,0 +1,114 @@
+                                                       Filename         Shape  Numeric Columns  Categorical Columns  Null Values                                                                                                                                                       First Columns                                                                  Label Distribution
+ Thursday-01-03-2018_TrafficForML_CICFlowMeter_preprocessed.csv  (328181, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]                                          {'Benign': 235778, 'Infilteration': 92403}
+ Thursday-15-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1040548, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]      {'Benign': 988050, 'Dosattacksgoldeneye': 41508, 'Dosattacksslowloris': 10990}
+  Tuesday-20-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (7889295, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]                                  {'Benign': 7313104, 'Ddosattacksloichttp': 576191}
+   Friday-16-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1048574, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]      {'Dosattackshulk': 461912, 'Benign': 446772, 'Dosattacksslowhttptest': 139890}
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1044751, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]                {'Benign': 663808, 'Ftpbruteforce': 193354, 'Sshbruteforce': 187589}
+ Thursday-22-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1042965, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]  {'Benign': 1042603, 'Bruteforceweb': 249, 'Bruteforcexss': 79, 'Sqlinjection': 34}
+   Friday-02-03-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1044525, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]                                                   {'Benign': 758334, 'Bot': 286191}
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv  (606902, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]                                          {'Benign': 538666, 'Infilteration': 68236}
+   Friday-23-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1042867, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max] {'Benign': 1042301, 'Bruteforceweb': 362, 'Bruteforcexss': 151, 'Sqlinjection': 53}
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv (1048575, 77)               76                    1            0 [Flow Duration, Tot Fwd Pkts, Tot Bwd Pkts, TotLen Fwd Pkts, TotLen Bwd Pkts, Fwd Pkt Len Max, Fwd Pkt Len Min, Fwd Pkt Len Mean, Fwd Pkt Len Std, Bwd Pkt Len Max]             {'Ddosattackhoic': 686012, 'Benign': 360833, 'Ddosattackloicudp': 1730}
+
+
+
+
+
+File: Friday-02-03-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1044525
+• Numero classi: 2
+• Classi trovate: ['Benign', 'Bot']
+• Distribuzione classi:
+Label
+Benign    758334
+Bot       286191
+------------------------------------------------------------
+File: Friday-16-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1048574
+• Numero classi: 3
+• Classi trovate: ['Dosattackshulk', 'Benign', 'Dosattacksslowhttptest']
+• Distribuzione classi:
+Label
+Dosattackshulk            461912
+Benign                    446772
+Dosattacksslowhttptest    139890
+------------------------------------------------------------
+File: Friday-23-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1042867
+• Numero classi: 4
+• Classi trovate: ['Benign', 'Bruteforceweb', 'Bruteforcexss', 'Sqlinjection']
+• Distribuzione classi:
+Label
+Benign           1042301
+Bruteforceweb        362
+Bruteforcexss        151
+Sqlinjection          53
+------------------------------------------------------------
+File: Thursday-01-03-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 328181
+• Numero classi: 2
+• Classi trovate: ['Benign', 'Infilteration']
+• Distribuzione classi:
+Label
+Benign           235778
+Infilteration     92403
+------------------------------------------------------------
+File: Thursday-15-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1040548
+• Numero classi: 3
+• Classi trovate: ['Benign', 'Dosattacksgoldeneye', 'Dosattacksslowloris']
+• Distribuzione classi:
+Label
+Benign                 988050
+Dosattacksgoldeneye     41508
+Dosattacksslowloris     10990
+------------------------------------------------------------
+File: Thursday-22-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1042965
+• Numero classi: 4
+• Classi trovate: ['Benign', 'Bruteforceweb', 'Bruteforcexss', 'Sqlinjection']
+• Distribuzione classi:
+Label
+Benign           1042603
+Bruteforceweb        249
+Bruteforcexss         79
+Sqlinjection          34
+------------------------------------------------------------
+File: Tuesday-20-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 7889295
+• Numero classi: 2
+• Classi trovate: ['Benign', 'Ddosattacksloichttp']
+• Distribuzione classi:
+Label
+Benign                 7313104
+Ddosattacksloichttp     576191
+------------------------------------------------------------
+File: Wednesday-14-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1044751
+• Numero classi: 3
+• Classi trovate: ['Benign', 'Ftpbruteforce', 'Sshbruteforce']
+• Distribuzione classi:
+Label
+Benign           663808
+Ftpbruteforce    193354
+Sshbruteforce    187589
+------------------------------------------------------------
+File: Wednesday-21-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 1048575
+• Numero classi: 3
+• Classi trovate: ['Ddosattackhoic', 'Benign', 'Ddosattackloicudp']
+• Distribuzione classi:
+Label
+Ddosattackhoic       686012
+Benign               360833
+Ddosattackloicudp      1730
+------------------------------------------------------------
+File: Wednesday-28-02-2018_TrafficForML_CICFlowMeter_preprocessed.csv
+• Totale righe: 606902
+• Numero classi: 2
+• Classi trovate: ['Benign', 'Infilteration']
+• Distribuzione classi:
+Label
+Benign           538666
+Infilteration     68236
+------------------------------------------------------------
